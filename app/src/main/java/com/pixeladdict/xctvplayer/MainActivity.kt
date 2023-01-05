@@ -47,6 +47,9 @@ class MainActivity : AppCompatActivity() {
             webChromeClient = WebChromeClient()
             loadUrl(DEFAULT_URL)
         }
+        val cookieManager = CookieManager.getInstance()
+        cookieManager.setAcceptCookie(true)
+        cookieManager.setAcceptThirdPartyCookies(webView, true)
     }
 
     inner class WebViewClient : android.webkit.WebViewClient() {
