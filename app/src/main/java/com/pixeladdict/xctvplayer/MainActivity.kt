@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.webkit.CookieManager
 import android.webkit.WebSettings
 import android.webkit.WebView
+import android.webkit.WebChromeClient
 import androidx.appcompat.app.AppCompatActivity
 import android.webkit.CookieSyncManager
 
