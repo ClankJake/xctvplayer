@@ -44,6 +44,7 @@ class MainActivity : AppCompatActivity() {
             settings.userAgentString = "Mozilla/5.0 (Macintosh; Intel Mac OS X 12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
             settings.javaScriptEnabled = true
             settings.domStorageEnabled = true
+            settings.pluginsEnabled = true
             webViewClient = WebViewClient()
             webChromeClient = WebChromeClient()
             loadUrl(DEFAULT_URL)
